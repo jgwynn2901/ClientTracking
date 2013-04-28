@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-  <div class="span4">
+  <div class="span3">
     <div class="control-group">
       <label class="control-label" for="address">Email Address</label>
       <div class="controls">
@@ -71,11 +71,12 @@
       </div>
     </div>
   </div>
-  <div class="span3">
+  <div class="span4">
     <div class="control-group">
       <label class="control-label" for="race">Notes</label>
       <div class="controls">
-        <asp:TextBox runat="server" TextMode="multiline" rows="4" class="input-large" id="notes"></asp:TextBox>
+        <asp:TextBox runat="server" TextMode="multiline" rows="6" class="input-x1
+          large" id="notes"></asp:TextBox>
     </div>
     <div class="control-group">
       <label class="control-label" for="race">Status</label>
@@ -84,11 +85,13 @@
       </div>
     </div>
   </div>
+    </div>
   <div class="span12">
-    <button type="submit" class="btn btn-primary">Save changes</button>
+    <asp:Button runat="server" ID="submit" class="btn btn-primary" text="Save changes" OnClick="SaveChanges_Click"></asp:Button>
     <button type="button" class="btn">Cancel</button>
 
   </div>
+  <asp:HiddenField ID="clientPk" runat="server"/>
   <script src="Scripts/clientForm.js"></script>
 </asp:Content>
 

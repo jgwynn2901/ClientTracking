@@ -42,5 +42,12 @@ namespace TestClientTracking
       var results = new ClientRepository().FindById(86);
       Assert.IsTrue(results.LastName == " DiPasquale");
     }
+
+    [TestMethod]
+    public void TestMaxId()
+    {
+      var results =  ClientRepository.GetMaxPrimaryKey();
+      Assert.IsTrue(results != -1);
+    }
   }
 }

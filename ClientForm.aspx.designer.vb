@@ -174,4 +174,22 @@ Partial Public Class ClientForm
   '''To modify move field declaration from designer file to code-behind file.
   '''</remarks>
   Protected WithEvents status As Global.System.Web.UI.WebControls.DropDownList
+
+  '''<summary>
+  '''submit control.
+  '''</summary>
+  '''<remarks>
+  '''Auto-generated field.
+  '''To modify move field declaration from designer file to code-behind file.
+  '''</remarks>
+  Protected WithEvents submit As Global.System.Web.UI.WebControls.Button
+
+  '''<summary>
+  '''clientPk control.
+  '''</summary>
+  '''<remarks>
+  '''Auto-generated field.
+  '''To modify move field declaration from designer file to code-behind file.
+  '''</remarks>
+  Protected WithEvents clientPk As Global.System.Web.UI.WebControls.HiddenField
 End Class
