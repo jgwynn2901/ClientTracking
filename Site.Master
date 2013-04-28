@@ -44,14 +44,14 @@
           </a>
           <div class="nav-collapse collapse">
             <ul class="nav nav-tabs">
-              <li><a id="A2" runat="server" href="~/ClientForm.aspx">Clients</a></li>
+              <li><a id="A2" runat="server" href="~/ClientForm.aspx">Add Client</a></li>
+              <li><a id="A1" runat="server" href="~/ClientForm.aspx">Edit Client</a></li>
               <li><a id="A3" runat="server" href="~/Contact.aspx">Contact</a></li>
             </ul>
             <section id="login" class="pull-right">
               <asp:LoginView ID="LoginView1" runat="server" ViewStateMode="Disabled">
                 <AnonymousTemplate>
                   <ul class="nav nav-tabs">
-                    <li><a id="registerLink" runat="server" href="~/Account/Register.aspx">Register</a></li>
                     <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Log in</a></li>
                   </ul>
                 </AnonymousTemplate>
@@ -82,7 +82,15 @@
     <footer>
       <div class="row-fluid">
         <div class="span12 footer">
-          <p>&copy Emerge</p>
+          <span>
+               	2464 Massachusetts Avenue, Suite 101 &middot; Cambridge, MA 02140<br />
+               	main office: 617-547-9879 &middot; fax: 617-547-0904 &middot; <a href="mailto:info@emergedv.com">info@emergedv.com</a>
+            </span>
+
+          <span class="pull-right">Copyright &copy; 2013 <a href="http://www.emergedv.com">Emerge</a>. All rights reserved.
+
+          </span>
+
         </div>
       </div>
     </footer>
