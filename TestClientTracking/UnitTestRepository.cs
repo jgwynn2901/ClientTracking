@@ -13,8 +13,9 @@ namespace TestClientTracking
     {
       var repo = new ClientRepository();
       var results = repo.FindAll()
-        .Where(a => a.LastName == "Gwynn");
-      Assert.IsTrue(results.Count() == 1);
+        .Where(a => a.LastName == " DiPasquale");
+      var count = results.Count();
+      Assert.IsTrue(count == 1);
     }
     [TestMethod]
     public void TestStatus()
