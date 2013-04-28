@@ -18,4 +18,5 @@
   </section>
 </asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+  <script src="Scripts/default.js"></script>
 </asp:Content>

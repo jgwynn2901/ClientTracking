@@ -34,5 +34,12 @@ namespace TestClientTracking
       var results = ClientRepository.GetLanguage();
       Assert.IsTrue(results.Count() >= 17);
     }
+
+    [TestMethod]
+    public void TestFindById()
+    {
+      var results = new ClientRepository().FindById(86);
+      Assert.IsTrue(results.LastName == " DiPasquale");
+    }
   }
 }

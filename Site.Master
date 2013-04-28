@@ -65,6 +65,10 @@
                 </LoggedInTemplate>
               </asp:LoginView>
             </section>
+            <section id="search" class="pull-right">
+              <asp:TextBox runat="server" type="text" ID="emergeId" class="input-medium search-query"></asp:TextBox>
+              <button type="submit" class="btn">Search</button>
+            </section>
           </div>
         </div>
       </div>

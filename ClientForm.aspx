@@ -5,9 +5,9 @@
     <div class="control-group">
       <label class="control-label" for="lastName">Name</label>
       <div class="controls">
-        <asp:TextBox runat="server" class="input-medium" id="lastName" placeholder="Last Name"></asp:TextBox>
+        <asp:TextBox runat="server" class="input-medium" id="lastName" placeholder="Last Name" title="Please enter Last Name"></asp:TextBox>
         <asp:TextBox runat="server" class="input-mini" id="middleName" placeholder="Mid"></asp:TextBox>
-        <asp:TextBox runat="server" class="input-small" id="firstName" placeholder="First Name"></asp:TextBox>
+        <asp:TextBox runat="server" class="input-small" id="firstName" placeholder="First Name" title="First Name only Not Nickname"></asp:TextBox>
       </div>
     </div>
     <div class="control-group">
@@ -75,8 +75,7 @@
     <div class="control-group">
       <label class="control-label" for="race">Notes</label>
       <div class="controls">
-        <textarea class="input-large" id="notes"></textarea>
-      </div>
+        <asp:TextBox runat="server" TextMode="multiline" rows="4" class="input-large" id="notes"></asp:TextBox>
     </div>
     <div class="control-group">
       <label class="control-label" for="race">Status</label>
@@ -90,5 +89,6 @@
     <button type="button" class="btn">Cancel</button>
 
   </div>
+  <script src="Scripts/clientForm.js"></script>
 </asp:Content>
 

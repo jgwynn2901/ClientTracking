@@ -21,4 +21,5 @@
       </div>
     </section>
   </div>
+  <script src="../Scripts/default.js"></script>
 </asp:Content>

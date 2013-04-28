@@ -59,6 +59,15 @@ Partial Public Class SiteMaster
   Protected WithEvents LoginView1 As Global.System.Web.UI.WebControls.LoginView
 
   '''<summary>
+  '''emergeId control.
+  '''</summary>
+  '''<remarks>
+  '''Auto-generated field.
+  '''To modify move field declaration from designer file to code-behind file.
+  '''</remarks>
+  Protected WithEvents emergeId As Global.System.Web.UI.WebControls.TextBox
+
+  '''<summary>
   '''FeaturedContent control.
   '''</summary>
   '''<remarks>

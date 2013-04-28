@@ -31,4 +31,5 @@
             <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
         </ul>
     </aside>
+  <script src="Scripts/default.js"></script>
 </asp:Content>

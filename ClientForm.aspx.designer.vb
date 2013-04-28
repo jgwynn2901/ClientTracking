@@ -158,6 +158,15 @@ Partial Public Class ClientForm
   Protected WithEvents race As Global.System.Web.UI.WebControls.DropDownList
 
   '''<summary>
+  '''notes control.
+  '''</summary>
+  '''<remarks>
+  '''Auto-generated field.
+  '''To modify move field declaration from designer file to code-behind file.
+  '''</remarks>
+  Protected WithEvents notes As Global.System.Web.UI.WebControls.TextBox
+
+  '''<summary>
   '''status control.
   '''</summary>
   '''<remarks>
